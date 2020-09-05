@@ -148,13 +148,13 @@ body {
 }
 
 .section__six h1 {
-  margin: 25px;
-  font-size: 2.2em;
+  text-align: center;
+  font-size: 3em;
   font-family: "Poppins", sans-serif;
 }
 
 .section__six button {
-  width: 27vw;
+  width: 28vw;
   margin: 25px;
   color: #fff;
   height: 4.8vw;
@@ -177,12 +177,11 @@ body {
 .footer__info {
   box-sizing: border-box;
   width: 60vw;
-  font-size: 0.7em;
   margin: 30px 50px;
   padding: 0px 60px;
 }
 .footer__info p {
-  margin: 20px 101px 20px 0px;
+  margin: 20px 30px 20px 0px;
 }
 
 .footer__contact {
@@ -191,7 +190,7 @@ body {
   margin: 20px 0px;
 }
 .footer__logo{
-  height:4.3vh;
+  height:5.5vh;
 }
 
 .footer__contact img {
@@ -209,8 +208,7 @@ body {
   font-size:1.5em
 }
 .footer__newsteller p {
-  font-size: 0.7em;
-  margin: 10px 150px 20px 0px;
+  margin: 10px 50px 20px 0px;
 }
 
 .footer__newsteller input{
