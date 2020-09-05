@@ -170,9 +170,10 @@ footer{
   flex-direction: column;
 }
 
-footer img{
+.footer-img{
+  width: 100vw;
   position: relative;
-    top: 5px;
+  top: 1vh;
 }
 .footer__wrap {
   height: 55vh;
