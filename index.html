@@ -4,48 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
-
-    <title>Frontend Mentor | Huddle landing page with curved sections</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+   <title>Frontend Mentor | Huddle landing page with curved sections</title>
+   <link rel="stylesheet" href="styles.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <section>
-      <h1>Try it free Build The Community Your Fans Will Love</h1>
+    <header class="header__espaciado center">
+      <img src="images/logo.svg">
+      <button>Try it free </button>
+    </header>
+    <section class="section__one center">
+      <h1>Build The Community Your Fans Will Love</h1>
       <p>
         Huddle re-imagines the way we build communities. You have a voice, but so does your
         audience. Create connections with your users as you engage in genuine discussion.
-      </p>
-      <button>Get Started For Free</button>
+      </p><br>
+      <button class="center">Get Started For Free</button>
     </section>
-    <section>
+    <section class="section__two center">
       <img SRC="images/screen-mockups.svg">
-      <div>
-        <div>
+      <div class="section__two-info center">
+        <div class="two__info-one">
           <img src="images/icon-communities.svg">
             <h1>1.4k+</h1> 
             <p>Communities Formed</p>
+        </div >
+        <div class="two__info-two">
+          <img src="images/icon-messages.svg">
+          <h1>2.7m+</h1> 
+          <p> Messages Sent</p>
         </div>
-        <img src="images/icon-messages.svg">
-        <h1>2.7m+</h1> 
-        <p> Messages Sent</p>
-    </div>
+      </div>
       </div>
     </section>
-    <section>
-      <div>
+    <section class="section__three center">
+      <div class="section__three-info">
         <h1>
             Grow Together
         </h1>
@@ -57,9 +52,9 @@
       </div>
       <img src="images/illustration-grow-together.svg">
     </section>
-    <section>
+    <section class="section__four center">
       <img src="images/illustration-flowing-conversation.svg">
-        <div>
+        <div class="section__four-info">
             <h1>
                 Flowing Conversations
             </h1>
@@ -69,8 +64,8 @@
             </p>
           </div>
     </section>
-    <section>
-        <div>
+    <section class="section__five center">
+        <div class="section__five-info">
             <h1>
                 Your Users
             </h1>
@@ -81,7 +76,7 @@
           </div>
           <img src="images/illustration-your-users.svg">
     </section>
-    <section>
+    <section class="section__six center">
       <h1> Ready To
           Build Your Community?</h1>
           <button>Get Started For Free</button>

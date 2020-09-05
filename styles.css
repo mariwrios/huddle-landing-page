@@ -1,0 +1,167 @@
+body {
+  background: rgb(245, 248, 250);
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__espaciado {
+  margin: 50px;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.header__espaciado img {
+  height: 2.7vw;
+}
+
+.header__espaciado button {
+  width: 10vw;
+  height: 3.5vw;
+  font-size: 1em;
+  background: none;
+  border-radius: 32px;
+  color: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+}
+
+.section__one {
+  display: flex;
+  margin: 20vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__one h1 {
+  margin: 25px;
+  font-size: 2.2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.section__one p {
+  width: 44vw;
+  font-size: 1em;
+  margin: 6px 17px;
+  text-align: center;
+}
+
+.section__one button {
+  width: 27vw;
+  margin: 25px;
+  color: #fff;
+  height: 4.8vw;
+  font-weight: 600;
+  font-size: 1.05em;
+  border-radius: 79px;
+  background: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  box-shadow: 0px 8px 4px 0px hsl(207, 25%, 92%);
+}
+
+.section__two {
+  margin: 5vh;
+  flex-direction: column;
+}
+
+.section__two img {
+  width: 80vw;
+}
+
+.section__two-info {
+  width: 70vw;
+  margin: 15vh;
+  justify-content: space-between;
+}
+
+.section__two-info img {
+  width: 3vw;
+  margin: 0px 8px;
+}
+
+.section__two-info h1 {
+  font-size: 6em;
+  margin: -10px 0px;
+}
+
+.section__two-info p {
+  text-align: center;
+  font-size: 1.5em;
+  color: hsl(207, 1%, 55%);
+}
+
+.section__three {
+  display: flex;
+  margin: 20vh 10vh;
+  justify-content: space-around;
+}
+
+.section__three img {
+  width: 45vw;
+}
+
+.section__three-info {
+  width: 40vw;
+}
+
+.section__four {
+  display: flex;
+  margin: 20vh 10vh;
+  justify-content: space-around;
+}
+
+.section__four img {
+  width: 45vw;
+}
+
+.section__four-info {
+  width: 40vw;
+}
+
+.section__five {
+  display: flex;
+  margin: 20vh 10vh;
+  justify-content: space-around;
+}
+
+.section__five img {
+  width: 45vw;
+}
+
+.section__five-info {
+  width: 40vw;
+}
+
+.section__six {
+  margin: 20vh;
+  flex-direction: column;
+}
+
+.section__six h1 {
+  margin: 25px;
+  font-size: 2.2em;
+  font-family: "Poppins", sans-serif;
+}
+
+.section__six button {
+  width: 27vw;
+  margin: 25px;
+  color: #fff;
+  height: 4.8vw;
+  font-weight: 600;
+  font-size: 1.05em;
+  border-radius: 79px;
+  background: hsl(322, 100%, 66%);
+  border: 2px solid hsl(322, 100%, 66%);
+  box-shadow: 0px 8px 4px 0px hsl(207, 25%, 92%);
+}
