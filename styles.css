@@ -49,8 +49,9 @@ body {
 
 .section__one h1 {
   margin: 25px;
-  font-size: 2.2em;
-  font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: "Poppins", sans-serif;
 }
 
 .section__one p {
@@ -282,4 +283,21 @@ footer{
 
 a{
   color: #fff
+}
+
+@media (min-width: 1000px) {
+ 
+  .section__img-top1{
+      top: -13vh;
+  }
+  .section__img-botton1{
+    top: 11vh;
+  }
+  
+  .section__img-top2{
+      top: -13vh;
+  }
+  .section__img-botton2{
+    top: 11vh;
+  }
 }
