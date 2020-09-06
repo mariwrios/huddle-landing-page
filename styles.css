@@ -301,3 +301,91 @@ a{
     top: 11vh;
   }
 }
+
+@media (max-width: 900px) {
+ 
+  .header__espaciado {
+    margin: 13px;
+}
+
+.header__espaciado img {
+  height: 4.7vw;
+}
+
+.header__espaciado button {
+  width: 20vw;
+  height: 6.5vw;
+  font-size: 0.8em;
+}
+.section__one {
+  margin: 0px
+}
+
+.section__one h1 {
+  margin: 82px 23px 25px;
+  font-size: 1.5em;
+}
+.section__one p {
+  width: 81vw;
+  font-size: 0.9em;
+  margin: 7px 12px;
+}
+
+.section__one button {
+  width: 55vw;
+  margin: 25px;
+  height: 11.8vw;
+}
+
+.section__two img {
+  margin: 65px 0px;
+}
+
+.section__two-info {
+  margin: 0;
+  flex-direction: column;
+}
+
+.two__info-one {
+  margin: 60px 0px 145px;
+}
+.two__info-one img {
+  width: 11vw;
+  margin: 0;
+}
+
+.two__info-two img {
+  width: 11vw;
+  margin: 0;
+}
+
+.section__two-info h1 {
+  font-size: 4.5em;
+  margin: 6px 0px;
+}
+.section__two-info p {
+ 
+  font-size: 1em;
+}
+.section__wrap {
+
+  flex-direction: column-reverse;
+}
+
+.title-container {
+  font-size: 1.5em;
+  margin: 20px 0px;
+}
+.section__three-info {
+  text-align: center;
+}
+.section__img {
+  width: 75vw;
+}
+
+.section__six button {
+  width: 55vw;
+  margin: 25px;
+  height: 11.8vw;
+}
+}
