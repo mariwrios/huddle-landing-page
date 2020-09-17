@@ -210,6 +210,11 @@ footer {
   position: relative;
   top: 1vh;
 }
+
+.footer__img-mobile {
+  display: none;
+}
+
 .footer__wrap {
   display: flex;
   color: white;
@@ -452,7 +457,13 @@ a {
     padding: 15vw 5vw;
     width: 100%;
   }
+  .footer-img {
+    display: none;
+  }
 
+  .footer__img-mobile {
+    display: block;
+  }
   .footer__info p {
     margin: 25px 0px 50px 0px;
     width: 100%;
