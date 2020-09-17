@@ -153,7 +153,7 @@ body {
 }
 
 .section__three-info {
-  width: 40vw;
+  width: 100%;
 }
 
 .section__four {
@@ -161,9 +161,10 @@ body {
   margin: 30vh 0px;
   flex-direction: column;
 }
-
 .section__four-info {
-  width: 40vw;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px 40px 0px;
 }
 
 .section__five {
@@ -206,12 +207,10 @@ footer {
 }
 
 .footer-img {
-  width: 99vw;
   position: relative;
   top: 1vh;
 }
 .footer__wrap {
-  height: 55vh;
   display: flex;
   color: white;
   background: hsl(192, 100%, 9%);
@@ -287,23 +286,27 @@ a {
   color: #fff;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 995px) {
   .section__img-top1 {
+    width: none;
     top: -13vh;
   }
   .section__img-botton1 {
+    width: none;
     top: 11vh;
   }
 
   .section__img-top2 {
+    width: none;
     top: -13vh;
   }
   .section__img-botton2 {
+    width: none;
     top: 11vh;
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
   .header__espaciado {
     margin: 13px;
   }
@@ -381,6 +384,27 @@ a {
     width: 75vw;
   }
 
+  .section__five-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section__six {
+    margin: 30vh 0;
+    flex-direction: column;
+  }
+  .section__p {
+    text-align: center;
+    font-size: 0.92em;
+    width: 90vw;
+  }
+  .section__six h1 {
+    text-align: center;
+    font-size: 1.5em;
+    width: 70vw;
+  }
+
   .section__six button {
     width: 55vw;
     margin: 25px;
@@ -392,5 +416,46 @@ a {
   }
   .section__img-top1 {
     display: none;
+  }
+  .footer__wrap {
+    flex-direction: column-reverse;
+    padding: 3vw;
+  }
+
+  .footer__newsteller {
+    box-sizing: border-box;
+    padding: 10vw 4vw;
+    width: 100%;
+  }
+
+  .footer__newsteller p {
+    margin: 4vw 0vw;
+    font-size: 0.9em;
+  }
+
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .footer__newsteller input {
+    width: 100%;
+  }
+
+  .footer__newsteller button {
+    margin: 0px 0px 0px 25px;
+  }
+
+  .footer__info {
+    box-sizing: border-box;
+    padding: 15vw 5vw;
+    width: 100%;
+  }
+
+  .footer__info p {
+    margin: 25px 0px 50px 0px;
+    width: 100%;
+    font-size: 0.9em;
   }
 }
